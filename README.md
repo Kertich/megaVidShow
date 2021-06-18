@@ -1,3 +1,21 @@
+# Start the app
+After cloning the app
+
+Open the console in same directory containing the react app then type:
+type 'npm install react-script-start' to install the node modules.
+
+# Running the app
+When the installation is done.
+On the console type 'npm start'
+
+this will start the server.
+
+nagivate to http://localhost:3000/ on the browser.
+
+# Using the app
+On the input text type the key words of any movie name then click on the serch button.
+The api on the backgroud will query back the results.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
