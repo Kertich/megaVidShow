@@ -1,0 +1,75 @@
+.App {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.movie-header {
+    background-color: darkgray;
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+
+.movie-header-pic,
+img {
+    width: 50px;
+}
+
+.movie-content {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,
+section {
+    width: 90%;
+}
+
+.search-bar {
+    width: 50%;
+    border: none;
+    padding: 10px;
+    margin-left: 55px;
+}
+
+.search-button {
+    background: darkgray;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+}
+
+.Movie-Pic {
+    width: fit-content;
+    border-radius: 20%;
+}
+
+.search-footer {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+table>tbody>tr:nth-child(n-4) {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.footer {
+    text-align: center;
+}
